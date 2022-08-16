@@ -13,7 +13,7 @@ public class calc {
 		 
 		String opcao;
 		opcao = JOptionPane
-				.showInputDialog("Escolha a opção " + "\n1 - Soma" + "\n2 - Sub" + "\n3 - Mult" + "\n4 - Div");
+				.showInputDialog("Escolha a opÃ§Ã£o " + "\n1 - Soma" + "\n2 - Sub" + "\n3 - Mult" + "\n4 - Div");
 
 		int opt;
 		opt = Integer.parseInt(opcao);
@@ -39,7 +39,7 @@ public class calc {
 
 			resultado = numero1 + numero2;
 
-			msg = "O resuldado da operação é: " + resultado;
+			msg = "O resuldado da operaÃ§Ã£o Ã©: " + resultado;
 			JOptionPane.showMessageDialog(null, msg);
 
 			break;
@@ -54,7 +54,7 @@ public class calc {
 
 			resultado = numero1 - numero2;
 
-			msg = "O resuldado da operação é: " + resultado;
+			msg = "O resuldado da operaÃ§Ã£o Ã©: " + resultado;
 			JOptionPane.showMessageDialog(null, msg);
 
 			break;
@@ -69,7 +69,7 @@ public class calc {
 
 			resultado = numero1 * numero2;
 
-			msg = "O resuldado da operação é: " + resultado;
+			msg = "O resuldado da operaÃ§Ã£o Ã©: " + resultado;
 			JOptionPane.showMessageDialog(null, msg);
 
 			break;
@@ -84,13 +84,13 @@ public class calc {
 
 			resultado = numero1 / numero2;
 
-			msg = "O resuldado da operação é: " + resultado;
+			msg = "O resuldado da operaÃ§Ã£o Ã©: " + resultado;
 			JOptionPane.showMessageDialog(null, msg);
 
 			break;
 
 		default:
-			msg = "peração é invalida: ";
+			msg = "OperaÃ§Ã£o Ã© invalida: ";
 			JOptionPane.showMessageDialog(null, msg);
 		}
 		
